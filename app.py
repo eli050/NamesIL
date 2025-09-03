@@ -14,7 +14,7 @@ name_input = st.text_input(':הכנס שם', key='name1')
 
 if name_input:
     total_count = proc.sum_of_value('name', name_input, 'n')
-    st.write(f'כמות האנשים עם השם{name_input}:\n'
+    st.write(f'כמות האנשים עם השם {name_input} היא:\n'
              f' {total_count}')
 
 st.header('🔹 דשבורד 2 - חלוקה לפי מגדר')
